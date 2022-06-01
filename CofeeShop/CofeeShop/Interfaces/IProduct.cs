@@ -5,6 +5,10 @@ namespace CofeeShop.Interfaces
 {
     public interface IProduct
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         List<Product> GetAllProducts();
         Product AddProduct(Product product);
         Product UpdateProduct(int id, Product product);
